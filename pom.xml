@@ -148,7 +148,7 @@
 				<configuration>
 				    <!--端口和虚拟目录-->
 					<port>80</port>
-					<path>/</path>
+					<path>/easyUI</path>
 				</configuration>
 			</plugin>
     	</plugins>

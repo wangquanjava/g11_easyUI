@@ -25,21 +25,15 @@
 </head>
 <body>
 <!-- 
-	这里实现了第一个面板
-	总结：
-	   1.id没啥用
-	   2.class用来标注这个div的样式
-	   3.style用来调整这个div的位置
-	   5.data-option：把这个面板的属性都写到里面
  -->
 <input class="easyui-combobox" name="language"
     data-options="
-    url:'combobox_data.json',
-    valueField:'id',
-    textField:'text',
-    panelHeight:'auto',
-    onSelect:function(record){
-    alert(record.text)
+	    url:'combobox_data.json',
+	    valueField:'id',
+	    textField:'text',
+	    panelHeight:'auto',
+	    onSelect:function(record){
+	    alert(record.text)
     }">
 
 

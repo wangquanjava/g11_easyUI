@@ -24,35 +24,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!-- 
-	这里实现了第一个面板
-	总结：
-	   1.id没啥用
-	   2.class用来标注这个div的样式
-	   3.style用来调整这个div的位置
-	   5.data-option：把这个面板的属性都写到里面
-	   6.下面是两种实现方式
- -->
-<div 
-	id="p"
-	class="easyui-tables"
-	style="width:500px;height:200px;padding:10px;"
-    data-options="title:'这是标题',iconCls:'icon-save',collapsible:true">
-   	这是内容
-</div>
-<br/>
+<ul id = "tree" class="easyui-tree" data-options="url:'property_data.json'">
+</ul>
 
-
-
-<div id="panel_div" style="width:400px;height:200px;padding:10px;"></div>
-<script type="text/javascript">
-	$("#panel_div").panel({
-		title:'这是标题',
-		iconCls:'icon-save',
-		collapsible:true
-	});
-</script>
 
 
 </body>
+<script type="text/javascript">
+</script>
+
 </html>

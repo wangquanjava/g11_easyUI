@@ -24,35 +24,38 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!-- 
-	这里实现了第一个面板
-	总结：
-	   1.id没啥用
-	   2.class用来标注这个div的样式
-	   3.style用来调整这个div的位置
-	   5.data-option：把这个面板的属性都写到里面
-	   6.下面是两种实现方式
- -->
-<div 
-	id="p"
-	class="easyui-tables"
-	style="width:500px;height:200px;padding:10px;"
-    data-options="title:'这是标题',iconCls:'icon-save',collapsible:true">
-   	这是内容
-</div>
-<br/>
-
-
-
-<div id="panel_div" style="width:400px;height:200px;padding:10px;"></div>
+	<div id="tb">
+		<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="javascript:alert('Add')">Add</a>
+		<a href="#" class="easyui-linkbutton" iconCls="icon-cut" plain="true" onclick="javascript:alert('Cut')">Cut</a>
+		<a href="#" class="easyui-linkbutton" iconCls="icon-save" plain="true" onclick="javascript:alert('Save')">Save</a>
+	</div>
+	<table id="dg" class="easyui-datagrid" data-options="url:'datagrid_data.json'">
+		<thead>
+			<tr>
+				<th data-options="field:'id'">id</th>
+				<th data-options="field:'name'">name</th>
+				<th data-options="field:'age'">age</th>
+			</tr>
+		</thead>
+	</table>
+	
+</body>
 <script type="text/javascript">
-	$("#panel_div").panel({
-		title:'这是标题',
-		iconCls:'icon-save',
-		collapsible:true
+$(function() {
+	$('#dg').datagrid({
+		toolbar:"#tb",
+		striped:true,
+		pagination:true,
+		loadFilter:function(data){
+			return data;
+		},
+		rownumbers:true,
+	 	sortName: 'id',
+       	sortOrder: 'desc',
+		//remoteSort:false
 	});
+})
+
 </script>
 
-
-</body>
 </html>
