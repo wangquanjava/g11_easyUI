@@ -14,8 +14,14 @@ import com.git.domain.ResultVO;
  */
 @Controller
 public class EasyUIController {
-	@RequestMapping(value="/get")
+	@RequestMapping(value="get")
 	public ResponseEntity<ResultVO> uploadFile(){
-		return null;
+		
+		return ResponseEntity.status(200).body(new ResultVO("what the fuck"));
+	}
+	@RequestMapping(value="checkCode")
+	public ResponseEntity<Boolean> checkCode(){
+		
+		return ResponseEntity.status(200).body(false);
 	}
 }
