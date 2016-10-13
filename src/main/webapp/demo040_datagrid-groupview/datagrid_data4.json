@@ -1,0 +1,101 @@
+{
+    "total": 8,
+    "rows": [
+        {
+            "id": "1",
+            "tbThirdCapitalEntity.capitalAccount": "淘当铺",
+            "tbThirdCapitalEntity.type": "1",
+            "tbThirdCapitalEntity.classifyid": "贵金属,钻石,珠宝玉石,数码,腕表,黄金,奢侈品,民品其它,全款车,银行分期车,金融分期车,担保分期车,个人新车,4S店新车,债权转让,GPS车",
+            "count": "3",
+            "remain": "9988880.00",
+            "state": "closed",
+            "tbThirdCapitalEntity.maxSingleLoanAmount": "10000000.00",
+            "used": "11120.00",
+            "tbThirdCapitalEntity.maxLoanAmountDate": "10000000.00"
+        },
+        {
+            "id": "2",
+            "tbThirdCapitalEntity.capitalAccount": "京东",
+            "tbThirdCapitalEntity.type": "1",
+            "tbThirdCapitalEntity.classifyid": "贵金属,钻石,珠宝玉石,数码,腕表,黄金,奢侈品,民品其它,全款车,银行分期车,金融分期车,担保分期车,个人新车,4S店新车,债权转让,GPS车",
+            "count": "1",
+            "remain": "1999900.00",
+            "state": "closed",
+            "tbThirdCapitalEntity.maxSingleLoanAmount": "10000000.00",
+            "used": "100.00",
+            "tbThirdCapitalEntity.maxLoanAmountDate": "2000000.00"
+        },
+        {
+            "id": "3",
+            "tbThirdCapitalEntity.capitalAccount": "首创",
+            "tbThirdCapitalEntity.type": "1",
+            "tbThirdCapitalEntity.classifyid": "贵金属,钻石,珠宝玉石,数码,腕表,黄金,奢侈品,民品其它,全款车,银行分期车,金融分期车,担保分期车,个人新车,4S店新车,债权转让,GPS车",
+            "count": "2",
+            "remain": "9961900.00",
+            "state": "closed",
+            "tbThirdCapitalEntity.maxSingleLoanAmount": "500000.00",
+            "used": "38100.00",
+            "tbThirdCapitalEntity.maxLoanAmountDate": "10000000.00"
+        },
+        {
+            "id": "4",
+            "tbThirdCapitalEntity.capitalAccount": "爱当宝",
+            "tbThirdCapitalEntity.type": "2",
+            "tbThirdCapitalEntity.classifyid": "",
+            "count": "1",
+            "remain": "0",
+            "state": "closed",
+            "tbThirdCapitalEntity.maxSingleLoanAmount": "0.00",
+            "used": "10000.00",
+            "tbThirdCapitalEntity.maxLoanAmountDate": "0.00"
+        },
+        {
+            "id": "5",
+            "tbThirdCapitalEntity.capitalAccount": "零钱包",
+            "tbThirdCapitalEntity.type": "2",
+            "tbThirdCapitalEntity.classifyid": "",
+            "count": "1",
+            "remain": "0",
+            "state": "closed",
+            "tbThirdCapitalEntity.maxSingleLoanAmount": "0.00",
+            "used": "120.00",
+            "tbThirdCapitalEntity.maxLoanAmountDate": "0.00"
+        },
+        {
+            "id": "6",
+            "tbThirdCapitalEntity.capitalAccount": "聚爱财",
+            "tbThirdCapitalEntity.type": "2",
+            "tbThirdCapitalEntity.classifyid": "",
+            "count": "0",
+            "remain": "0",
+            "state": "closed",
+            "tbThirdCapitalEntity.maxSingleLoanAmount": "0.00",
+            "used": "0",
+            "tbThirdCapitalEntity.maxLoanAmountDate": "0.00"
+        },
+        {
+            "id": "7",
+            "tbThirdCapitalEntity.capitalAccount": "考拉",
+            "tbThirdCapitalEntity.type": "2",
+            "tbThirdCapitalEntity.classifyid": "",
+            "count": "1",
+            "remain": "0",
+            "state": "closed",
+            "tbThirdCapitalEntity.maxSingleLoanAmount": "0.00",
+            "used": "1000.00",
+            "tbThirdCapitalEntity.maxLoanAmountDate": "0.00"
+        },
+        {
+            "id": "8",
+            "tbThirdCapitalEntity.capitalAccount": "融贝",
+            "tbThirdCapitalEntity.type": "2",
+            "tbThirdCapitalEntity.classifyid": "",
+            "count": "0",
+            "remain": "0",
+            "state": "closed",
+            "tbThirdCapitalEntity.maxSingleLoanAmount": "0.00",
+            "used": "0",
+            "tbThirdCapitalEntity.maxLoanAmountDate": "0.00"
+        }
+    ]
+}

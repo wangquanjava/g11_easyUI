@@ -1,0 +1,124 @@
+{
+    "total": 8,
+    "rows": [
+        {
+            "id": 1,
+            "type": 1,
+            "total": 1000,
+            "count": 2,
+            "rate": null,
+            "lendName": "淘当铺",
+            "cycle": null,
+            "classifyid": "贵金属,钻石,珠宝玉石,数码,腕表,黄金,奢侈品,民品其它,全款车,银行分期车,金融分期车,担保分期车,个人新车,4S店新车,债权转让,GPS车",
+            "remain": 800,
+            "userd": 200,
+            "oneTimeTotal": 500
+        },
+        {
+            "id": 2,
+            "type": 1,
+            "total": 1000,
+            "count": 3,
+            "rate": "0.875",
+            "lendName": "京东",
+            "cycle": 30,
+            "classifyid": "贵金属,钻石,珠宝玉石,数码,腕表,黄金,奢侈品,民品其它,全款车,银行分期车,金融分期车,担保分期车,个人新车,4S店新车,债权转让,GPS车",
+            "remain": 700,
+            "userd": 300,
+            "oneTimeTotal": 100
+        },
+        {
+            "id": 3,
+            "type": 1,
+            "total": 1000,
+            "count": 3,
+            "rate": null,
+            "lendName": "首创",
+            "cycle": null,
+            "classifyid": "贵金属,钻石,珠宝玉石,数码,腕表,黄金,奢侈品,民品其它,全款车,银行分期车,金融分期车,担保分期车,个人新车,4S店新车,债权转让,GPS车",
+            "remain": 500,
+            "userd": 500,
+            "oneTimeTotal": 100
+        },
+        {
+            "id": 4,
+            "type": 2,
+            "total": 100,
+            "count": 0,
+            "rate": null,
+            "lendName": "爱当宝",
+            "cycle": null,
+            "classifyid": "",
+            "remain": 50,
+            "userd": 50,
+            "oneTimeTotal": 100
+        },
+        {
+            "id": 5,
+            "type": 2,
+            "total": 100,
+            "count": 0,
+            "rate": null,
+            "lendName": "零钱包",
+            "cycle": null,
+            "classifyid": "",
+            "remain": 50,
+            "userd": 50,
+            "oneTimeTotal": 100
+        },
+        {
+            "id": 6,
+            "type": 2,
+            "total": 100,
+            "count": 1,
+            "rate": null,
+            "lendName": "聚爱财",
+            "cycle": null,
+            "classifyid": "",
+            "remain": 50,
+            "userd": 50,
+            "oneTimeTotal": 100
+        },
+        {
+            "id": 7,
+            "type": 2,
+            "total": 100,
+            "count": 1,
+            "rate": null,
+            "lendName": "考拉",
+            "cycle": null,
+            "classifyid": "",
+            "remain": 50,
+            "userd": 50,
+            "oneTimeTotal": 100
+        },
+        {
+            "id": 8,
+            "type": 2,
+            "total": 600,
+            "count": 1,
+            "rate": null,
+            "lendName": "融贝",
+            "cycle": null,
+            "classifyid": "",
+            "remain": 600,
+            "userd": 0,
+            "oneTimeTotal": 100
+        }
+    ],
+    "footer": [
+        {
+            "id": null,
+            "type": null,
+            "total": null,
+            "count": null,
+            "rate": null,
+            "lendName": "合计",
+            "cycle": null,
+            "classifyid": null,
+            "remain": 22000000,
+            "userd": 0,
+            "oneTimeTotal": null
+        }
+    ]
+}
